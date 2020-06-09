@@ -75,7 +75,7 @@ public class ApiTest {
     public Object[][] ID_1()
     {
         return  new Object[][]{
-                {1743}
+                {1749}
         };
     }
     @Test(dataProvider = "ID_1")
@@ -120,7 +120,7 @@ public class ApiTest {
     @DataProvider(name = "ID_3")
     public Object[][] ID_3()
     {
-        return new Object[][] {{1751}};
+        return new Object[][] {{1752}};
     };
     @Test(dataProvider = "ID_3")
     public void test1_6(int ID) {
